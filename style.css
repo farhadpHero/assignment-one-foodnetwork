@@ -1,0 +1,124 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    color: dimgray;
+}
+
+p{
+    font-size: 20px;
+}
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.link-button{
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+section{
+    padding-bottom: 50px;
+}
+.flexible-container{
+    display: flex;
+}
+
+.half-width{
+    width: 40%;
+    padding-left: 4%;
+    margin-left: 5%;
+}
+
+.half-width img{
+    width: 50%;
+}
+
+.top-section{
+    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.about-section{
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+
+
+.recipie-details{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    margin-left: 7%;
+    padding: 10px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  }
+
+ .lover{
+     width: 10%;
+     margin: auto;
+ }
+
+.supporter{
+    height: 200px;
+    background-color: ghostwhite;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(18, 2, 26, 0.959)
+}
+
+
+.ending{
+    height: 200px;
+    background-color: rgb(10, 1, 32);
+    text-align: center;
+}
+
+
+
+
+
+
